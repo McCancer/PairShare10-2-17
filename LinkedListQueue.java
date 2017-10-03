@@ -1,3 +1,4 @@
+import java.util.NoSuchElementException;
 /**
    Implement a queue as a sequence of nodes.
 */
@@ -11,7 +12,8 @@ public class LinkedListQueue
    */
    public LinkedListQueue()
    {
-      . . .
+      head = null;
+      tail =  null;
    }
 
    /**
@@ -20,7 +22,7 @@ public class LinkedListQueue
    */
    public boolean empty()
    {
-      . . .
+      return head == null; 
    }
 
    /**
@@ -29,7 +31,15 @@ public class LinkedListQueue
    */
    public void add(Object newElement)
    {
-      . . .
+      Node newnode = new Node(); // Creates new Node
+      newnode.data = newElement; //Puts Data into node
+      if(empty()){ //Sees if the node is empty
+        head = newnode;} //if node is empty then head is the node
+      else{
+        tail.next = newnode; //if node is not empty then the tail need to point 
+                             // to this
+        }
+      tail = newnode; // tail is now equal to this node
    }
 
    /**
@@ -38,7 +48,12 @@ public class LinkedListQueue
    */
    public Object remove()
    {
-      . . .
+       if(empty()){ // checks to see if empty and if it is thows exception
+           throw new NoSuchElementException();
+        }
+      Object element = head.data; //takes data from head
+      head = head.next; //makes second in line new head
+      return element; //sends back the data
    }
 
    class Node
