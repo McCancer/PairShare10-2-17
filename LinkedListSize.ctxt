@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LinkedListSize()
+comment0.text=\r\n\ \ \ \ \ \ Constructs\ an\ empty\ linked\ list.\r\n
+comment1.params=
+comment1.target=int\ Sizemedaddy()
+comment2.params=
+comment2.target=java.lang.Object\ getFirst()
+comment2.text=\r\n\ \ \ \ \ \ Returns\ the\ first\ element\ in\ the\ linked\ list.\r\n\ \ \ \ \ \ @return\ the\ first\ element\ in\ the\ linked\ list\r\n
+comment3.params=
+comment3.target=java.lang.Object\ removeFirst()
+comment3.text=\r\n\ \ \ \ \ \ Removes\ the\ first\ element\ in\ the\ linked\ list.\r\n\ \ \ \ \ \ @return\ the\ removed\ element\r\n
+comment4.params=elements
+comment4.target=void\ addFirst(java.lang.Object)
+comment4.text=\r\n\ \ \ \ \ \ Adds\ an\ element\ to\ the\ front\ of\ the\ linked\ list.\r\n\ \ \ \ \ \ @param\ element\ the\ element\ to\ add\r\n
+comment5.params=
+comment5.target=LinkedListSize.LinkedListIterator\ listIterator()
+comment5.text=\r\n\ \ \ \ \ \ Returns\ an\ iterator\ for\ iterating\ through\ this\ list.\r\n\ \ \ \ \ \ @return\ an\ iterator\ for\ iterating\ through\ this\ list\r\n
+numComments=6

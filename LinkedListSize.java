@@ -8,53 +8,26 @@ import java.util.NoSuchElementException;
    the list. Implement this method by directly rerouting the
    links, not by using an iterator.
 */
-public class LinkedList
+public class LinkedListSize
 {
    private Node first;
 
    /**
       Constructs an empty linked list.
    */
-   public LinkedList(){
+   public LinkedListSize(){
        first = null;
     }
 
-   /**
-      Reverses all elements in a linked list.
-   
-   public void reverse()
-   {
-      // Complete this method
-      LinkedList Killme = new LinkedList();
-      LinkedList Killme2 = new LinkedList();
-      while(first != null){
-          Killme.addFirst(this.removeFirst());
+   public int Sizemedaddy(){
+     int count = 1;
+     Node Counter = first;
+     while(Counter.next != null){
+         Counter = Counter.next;
+         count++;
         }
-      while(Killme.first != null){
-          Killme2.addFirst(Killme.removeFirst());
-      }
-      while(Killme2.first != null){
-          this.addFirst(Killme2.removeFirst());
-      }
-      
-   }*/
-   /**
-      Reverses all elements in a linked list.
-   */
-   public void reverse()
-   {
-      // Complete this method
-      Node node1 = new Node();
-      Node node2 = new Node();
-      while(first != null){
-          node2 = first.next;
-          first.next = node1;
-          node1 = first;
-          first = node2;
-        }
-   }
-
-
+     return count;
+    }
    /**
       Returns the first element in the linked list.
       @return the first element in the linked list
