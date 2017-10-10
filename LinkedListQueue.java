@@ -55,7 +55,37 @@ public class LinkedListQueue
       head = head.next; //makes second in line new head
       return element; //sends back the data
    }
-
+   
+   /**
+    * Moves the node at the head to the tail
+    */
+   public void FirsttoLast(){
+     if(empty()){
+         throw new NoSuchElementException();
+        }
+     Node transfer = new Node();
+     transfer.data = head.data;
+     tail.next = transfer;
+     head = head.next;
+     tail = tail.next;
+    }
+   
+   public void LasttoFirst(){
+     Node Next = new Node();
+     Node Walker = new Node();
+     Node Transfer = new Node();
+     Next = head.next;
+     while(Next.next != null){
+         Walker = Next;
+         Next = Next.next;
+        }
+     Transfer.data = tail.data; 
+     Transfer.next = head;
+     head = Transfer;
+     
+     Walker.next = null;
+     tail = Walker;
+    }
    class Node
    {
       public Object data;
