@@ -89,12 +89,30 @@ public class LinkedList
        newNode.next = first; //Just alias to next node
        first = newNode; //sets new node to the first thing in the list
     }
+    
    /**
       Returns an iterator for iterating through this list.
       @return an iterator for iterating through this list
    */
    public LinkedListIterator listIterator(){
        return new LinkedListIterator(); // Creates an iterator class and returns it
+    }
+    
+   /**
+    * Returns a true if the object is in the list
+    */
+   public boolean Contains(Object obj){
+     Node Walker = new Node();
+     Walker = first;
+     while(Walker.next != null){
+         if((Walker.data).equals(obj)){
+             return true;
+            }
+         else{
+            Walker = Walker.next;
+            }
+        }
+     return false;
     }
    //Class Node
    class Node{
