@@ -16,4 +16,5 @@ comment4.target=void\ FirsttoLast()
 comment4.text=\r\n\ Moves\ the\ node\ at\ the\ head\ to\ the\ tail\r\n
 comment5.params=
 comment5.target=void\ LasttoFirst()
+comment5.text=\r\n\ Kunzer\ Wrote\ this\r\n
 numComments=6

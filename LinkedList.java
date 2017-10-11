@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
 public class LinkedList
 {
    private Node first;
-
+   
    /**
       Constructs an empty linked list.
    */
@@ -100,8 +100,12 @@ public class LinkedList
     
    /**
     * Returns a true if the object is in the list
+    * Kunzer wrote this code
     */
    public boolean Contains(Object obj){
+     if (first == null){
+         throw  new NoSuchElementException();
+        }
      Node Walker = new Node();
      Walker = first;
      while(Walker.next != null){
@@ -113,6 +117,25 @@ public class LinkedList
             }
         }
      return false;
+    }
+   
+   /**
+    * Finds the size of the Linked List. Then returns the number
+    * Needs a node to run
+    * returns an int
+    * Kunzer Wrote this
+    */
+   private int Size(Node start, int count){
+    
+    if(start != null){
+        count++;
+        return Size(start.next, count);
+    }
+    
+    return count;
+    }
+   public int testy(){
+       return Size(first,0);
     }
    //Class Node
    class Node{

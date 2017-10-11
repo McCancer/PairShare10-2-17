@@ -10,11 +10,13 @@ public class ReverseTester
       names.addFirst("Romeo");
       names.addFirst("Harry");
       names.addFirst("Dick");
-
+      System.out.println(names.Contains("Romeo"));
+      System.out.println(names.testy());
       names.reverse();
       ListIterator iter = names.listIterator();
       while (iter.hasNext()) System.out.print(iter.next() + " ");
       System.out.println();
       System.out.println("Expected: Tom Romeo Harry Dick");
+      
    }
 }

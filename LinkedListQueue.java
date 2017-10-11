@@ -70,6 +70,9 @@ public class LinkedListQueue
      tail = tail.next;
     }
    
+    /**
+     * Kunzer Wrote this
+     */
    public void LasttoFirst(){
      Node Next = new Node();
      Node Walker = new Node();
