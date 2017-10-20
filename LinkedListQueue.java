@@ -15,6 +15,8 @@ public class LinkedListQueue
       head = null;
       tail =  null;
    }
+   
+   
 
    /**
       Checks whether this queue is empty.

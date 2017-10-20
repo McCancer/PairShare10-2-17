@@ -114,6 +114,22 @@ public class LinkedList
         }
      return false;
     }
+    
+    private int sizeHelper(Node temp)
+   {   int count = 0;
+       if (first == null)
+        return 0;
+       if (count == 0)
+        temp = first;
+       if(temp.next != null){
+           count = 1 + sizeHelper(temp.next);
+        }
+       return count;
+   }
+   public int size()
+   {
+       return sizeHelper(first);
+    }
    //Class Node
    class Node{
        public Object data;

@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
 public class LinkedListSize
 {
    private Node first;
-
+   private int count;
    /**
       Constructs an empty linked list.
    */
@@ -19,14 +19,19 @@ public class LinkedListSize
        first = null;
     }
 
-   public int Sizemedaddy(){
-     int count = 1;
-     Node Counter = first;
-     while(Counter.next != null){
-         Counter = Counter.next;
-         count++;
+   private int sizeHelper(Node temp)
+   {   int count = 0;
+       if (first == null)
+        return 0;   
+       if(temp.next != null){
+           count = 1 + sizeHelper(temp.next);
         }
-     return count;
+       return 1;  
+    }
+    
+   public int size()
+   {
+       return sizeHelper(first);
     }
    /**
       Returns the first element in the linked list.

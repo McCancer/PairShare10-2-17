@@ -15,6 +15,6 @@ public class sizetester
         tester.addFirst("C");
         tester.addFirst("D");
         tester.addFirst("E");
-        System.out.println(tester.Sizemedaddy());
+        System.out.println(tester.size());
     }
 }
