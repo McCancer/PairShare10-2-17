@@ -17,6 +17,7 @@ comment4.text=\r\n\ \ \ \ \ \ Adds\ an\ element\ to\ the\ front\ of\ the\ linked
 comment5.params=
 comment5.target=LinkedList.LinkedListIterator\ listIterator()
 comment5.text=\r\n\ \ \ \ \ \ Returns\ an\ iterator\ for\ iterating\ through\ this\ list.\r\n\ \ \ \ \ \ @return\ an\ iterator\ for\ iterating\ through\ this\ list\r\n
+<<<<<<< HEAD
 comment6.params=obj
 comment6.target=boolean\ Contains(java.lang.Object)
 comment6.text=\r\n\ Returns\ a\ true\ if\ the\ object\ is\ in\ the\ list\r\n
@@ -25,3 +26,6 @@ comment7.target=int\ sizeHelper(LinkedList.Node)
 comment8.params=
 comment8.target=int\ size()
 numComments=9
+=======
+numComments=6
+>>>>>>> parent of a1c947e... dsdsd
