@@ -20,6 +20,7 @@ comment5.text=\r\n\ \ \ \ \ \ Returns\ an\ iterator\ for\ iterating\ through\ th
 <<<<<<< HEAD
 comment6.params=obj
 comment6.target=boolean\ Contains(java.lang.Object)
+<<<<<<< HEAD
 comment6.text=\r\n\ Returns\ a\ true\ if\ the\ object\ is\ in\ the\ list\r\n
 comment7.params=temp
 comment7.target=int\ sizeHelper(LinkedList.Node)
@@ -29,3 +30,12 @@ numComments=9
 =======
 numComments=6
 >>>>>>> parent of a1c947e... dsdsd
+=======
+comment6.text=\r\n\ Returns\ a\ true\ if\ the\ object\ is\ in\ the\ list\r\n\ Kunzer\ wrote\ this\ code\r\n
+comment7.params=start\ count
+comment7.target=int\ Size(LinkedList.Node,\ int)
+comment7.text=\r\n\ Finds\ the\ size\ of\ the\ Linked\ List.\ Then\ returns\ the\ number\r\n\ Needs\ a\ node\ to\ run\r\n\ returns\ an\ int\r\n\ Kunzer\ Wrote\ this\r\n
+comment8.params=
+comment8.target=int\ testy()
+numComments=9
+>>>>>>> ac9fa4caad1863eedaa28a0d510d009cbdf13afa
