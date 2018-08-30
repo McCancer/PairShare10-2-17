@@ -96,7 +96,7 @@ public class LinkedList
    public LinkedListIterator listIterator(){
        return new LinkedListIterator(); // Creates an iterator class and returns it
     }
-<<<<<<< HEAD
+//<<<<<<< HEAD
     
    /**
     * Returns a true if the object is in the list
@@ -118,7 +118,7 @@ public class LinkedList
         }
      return false;
     }
-<<<<<<< HEAD
+//<<<<<<< HEAD
     
     private int sizeHelper(Node temp)
    {   int count = 0;
@@ -135,9 +135,9 @@ public class LinkedList
    {
        return sizeHelper(first);
     }
-=======
->>>>>>> parent of a1c947e... dsdsd
-=======
+//=======
+///>>>>>>> parent of a1c947e... dsdsd
+//=======
    
    /**
     * Finds the size of the Linked List. Then returns the number
@@ -157,7 +157,7 @@ public class LinkedList
    public int testy(){
        return Size(first,0);
     }
->>>>>>> ac9fa4caad1863eedaa28a0d510d009cbdf13afa
+//>>>>>>> ac9fa4caad1863eedaa28a0d510d009cbdf13afa
    //Class Node
    class Node{
        public Object data;

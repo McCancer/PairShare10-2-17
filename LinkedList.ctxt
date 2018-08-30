@@ -1,41 +1,34 @@
 #BlueJ class context
-comment0.params=
-comment0.target=LinkedList()
-comment0.text=\r\n\ \ \ \ \ \ Constructs\ an\ empty\ linked\ list.\r\n
+comment0.target=LinkedList
+comment0.text=\r\n\ \ \ A\ linked\ list\ is\ a\ sequence\ of\ nodes\ with\ efficient\r\n\ \ \ element\ insertion\ and\ removal.\ This\ class\r\n\ \ \ contains\ a\ subset\ of\ the\ methods\ of\ the\ standard\r\n\ \ \ java.util.LinkedList\ class.\r\n\ \ \ Complete\ the\ reverse\ method\ by\ reversing\ the\ links\ in\ a\r\n\ \ \ the\ list.\ Implement\ this\ method\ by\ directly\ rerouting\ the\r\n\ \ \ links,\ not\ by\ using\ an\ iterator.\r\n
 comment1.params=
-comment1.target=void\ reverse()
-comment1.text=\r\n\ \ \ \ \ \ Reverses\ all\ elements\ in\ a\ linked\ list.\r\n
+comment1.target=LinkedList()
+comment1.text=\r\n\ \ \ \ \ \ Constructs\ an\ empty\ linked\ list.\r\n
+comment10.params=start\ count
+comment10.target=int\ Size(LinkedList.Node,\ int)
+comment10.text=\r\n\ Finds\ the\ size\ of\ the\ Linked\ List.\ Then\ returns\ the\ number\r\n\ Needs\ a\ node\ to\ run\r\n\ returns\ an\ int\r\n\ Kunzer\ Wrote\ this\r\n
+comment11.params=
+comment11.target=int\ testy()
 comment2.params=
-comment2.target=java.lang.Object\ getFirst()
-comment2.text=\r\n\ \ \ \ \ \ Returns\ the\ first\ element\ in\ the\ linked\ list.\r\n\ \ \ \ \ \ @return\ the\ first\ element\ in\ the\ linked\ list\r\n
+comment2.target=void\ reverse()
+comment2.text=\r\n\ \ \ \ \ \ Reverses\ all\ elements\ in\ a\ linked\ list.\r\n
 comment3.params=
-comment3.target=java.lang.Object\ removeFirst()
-comment3.text=\r\n\ \ \ \ \ \ Removes\ the\ first\ element\ in\ the\ linked\ list.\r\n\ \ \ \ \ \ @return\ the\ removed\ element\r\n
-comment4.params=elements
-comment4.target=void\ addFirst(java.lang.Object)
-comment4.text=\r\n\ \ \ \ \ \ Adds\ an\ element\ to\ the\ front\ of\ the\ linked\ list.\r\n\ \ \ \ \ \ @param\ element\ the\ element\ to\ add\r\n
-comment5.params=
-comment5.target=LinkedList.LinkedListIterator\ listIterator()
-comment5.text=\r\n\ \ \ \ \ \ Returns\ an\ iterator\ for\ iterating\ through\ this\ list.\r\n\ \ \ \ \ \ @return\ an\ iterator\ for\ iterating\ through\ this\ list\r\n
-<<<<<<< HEAD
-comment6.params=obj
-comment6.target=boolean\ Contains(java.lang.Object)
-<<<<<<< HEAD
-comment6.text=\r\n\ Returns\ a\ true\ if\ the\ object\ is\ in\ the\ list\r\n
-comment7.params=temp
-comment7.target=int\ sizeHelper(LinkedList.Node)
-comment8.params=
-comment8.target=int\ size()
-numComments=9
-=======
-numComments=6
->>>>>>> parent of a1c947e... dsdsd
-=======
-comment6.text=\r\n\ Returns\ a\ true\ if\ the\ object\ is\ in\ the\ list\r\n\ Kunzer\ wrote\ this\ code\r\n
-comment7.params=start\ count
-comment7.target=int\ Size(LinkedList.Node,\ int)
-comment7.text=\r\n\ Finds\ the\ size\ of\ the\ Linked\ List.\ Then\ returns\ the\ number\r\n\ Needs\ a\ node\ to\ run\r\n\ returns\ an\ int\r\n\ Kunzer\ Wrote\ this\r\n
-comment8.params=
-comment8.target=int\ testy()
-numComments=9
->>>>>>> ac9fa4caad1863eedaa28a0d510d009cbdf13afa
+comment3.target=java.lang.Object\ getFirst()
+comment3.text=\r\n\ \ \ \ \ \ Returns\ the\ first\ element\ in\ the\ linked\ list.\r\n\ \ \ \ \ \ @return\ the\ first\ element\ in\ the\ linked\ list\r\n
+comment4.params=
+comment4.target=java.lang.Object\ removeFirst()
+comment4.text=\r\n\ \ \ \ \ \ Removes\ the\ first\ element\ in\ the\ linked\ list.\r\n\ \ \ \ \ \ @return\ the\ removed\ element\r\n
+comment5.params=elements
+comment5.target=void\ addFirst(java.lang.Object)
+comment5.text=\r\n\ \ \ \ \ \ Adds\ an\ element\ to\ the\ front\ of\ the\ linked\ list.\r\n\ \ \ \ \ \ @param\ element\ the\ element\ to\ add\r\n
+comment6.params=
+comment6.target=LinkedList.LinkedListIterator\ listIterator()
+comment6.text=\r\n\ \ \ \ \ \ Returns\ an\ iterator\ for\ iterating\ through\ this\ list.\r\n\ \ \ \ \ \ @return\ an\ iterator\ for\ iterating\ through\ this\ list\r\n
+comment7.params=obj
+comment7.target=boolean\ Contains(java.lang.Object)
+comment7.text=\r\n\ Returns\ a\ true\ if\ the\ object\ is\ in\ the\ list\r\n\ Kunzer\ wrote\ this\ code\r\n
+comment8.params=temp
+comment8.target=int\ sizeHelper(LinkedList.Node)
+comment9.params=
+comment9.target=int\ size()
+numComments=12
